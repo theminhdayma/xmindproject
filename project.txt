@@ -1,0 +1,60 @@
+       Quản lí công ty Gỗ - Nhân sự và khách hàng
+
+Struct Phong ban:
+- id
+-name
+- số lượng nhân viên
+-thông tin nhân sự
+
+Struct Thông tin nhân sự:
+- id
+-name
+-tuổi
+-Địa chỉ
+-STD
+-email
+-Chức vụ
+
+ *Struct Khach hang:
+-Struct dangKi
++Tên hiển thị
++Sdt\email
++Mật khẩu
++Ngày tháng năm sinh
++giới tính
+-struct dangNhap
++ sdt\email
++ mật khẩu
+
+Struct gỗ:
+- id
+- tên gỗ
+- giá tiền
+
+*Các chức năng:
+1. Phòng ban
+1.1: Giams đốc:
+a. xem được tất cả thông tin của các nhân viên
+b. xem được thông tin của các loại gỗ
+
+1.2: Phòng quản lí nhân viên
+a. xem được tất cả các nhân viên
+b. thêm nhân viên
+c. sửa
+d. xóa
+e.Tìm kiếm 
+f.Sắp xếp
+g.Lưu ra file
+
+1.3 Phòng kế toán
+a. xem được thông tin các nhân viên
+b.Tính lương
+
+1.4 quản lí khách hàng:
+a. xem thông tin về các khách hàng trong đó
+2.Khách hàng
+2.1 Đăng nhập hoặc đăng kí
+2.2 Xem được tất cả loại gỗ
+2.3 Nhập tên loại gỗ muốn tìm kiếm
+2.4 mua\không mua
+2.5 đăng xuất
